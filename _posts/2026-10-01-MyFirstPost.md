@@ -2,6 +2,7 @@
 layout: post
 title: "A Little Joy Today"
 date: 2026-10-01
+comments: true
 ---
 
 # A Little Joy Today 🌸
