@@ -129,17 +129,30 @@ comments:
     repo: # <gh-username>/<repo>
     issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
-  giscus:
-    repo: # <gh-username>/<repo>
-    repo_id:
-    category:
-    category_id:
-    mapping: # optional, default to 'pathname'
-    strict: # optional, default to '0'
-    input_position: # optional, default to 'bottom'
-    lang: en # optional, default to the value of `site.lang`
-    reactions_enabled: # optional, default to the value of `1`
 
+  # This is the default ! 
+  # giscus:
+  #   repo: # <gh-username>/<repo>
+  #   repo_id:
+  #   category:
+  #   category_id:
+  #   mapping: # optional, default to 'pathname'
+  #   strict: # optional, default to '0'
+  #   input_position: # optional, default to 'bottom'
+  #   lang: en # optional, default to the value of `site.lang`
+  #   reactions_enabled: # optional, default to the value of `1`
+    
+  giscus:
+    repo: kalopseeia/kalopseeia.github.io
+    repo_id: R_kgDOU0NOgw
+    category: General
+    category_id: DIC_kwDOU0NOg84DGyF-
+    mapping: pathname
+    strict: 0
+    input_position: bottom
+    lang: en
+    reactions_enabled: 1
+    
 # Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
 assets:
   self_host:
